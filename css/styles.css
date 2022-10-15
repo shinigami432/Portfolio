@@ -2,6 +2,9 @@ body{
     font-size: x-large;;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* <------------------------------------------------------------------------------------------------> */
+
 /* fixing sub-heading */
 .sub-heading{
     margin: auto;
@@ -18,6 +21,7 @@ a{
     text-decoration: none;
 }
 
+/* <------------------------------------------------------------------------------------------------> */
 
 /* Welcome section */
 
@@ -60,7 +64,10 @@ a{
     padding: 2% 6%;
 }
 
+/* <------------------------------------------------------------------------------------------------> */
+
 /* skills section */
+
 .skills-img{
     position: relative;
     /* margin: auto; */
@@ -82,10 +89,10 @@ a{
     color: #ff6731;
     padding: 2px;
 }
+
+/* <------------------------------------------------------------------------------------------------> */
+
 /* permanent contact */
-#contact{
-    /* background-color: #eae0e0; */
-}
 #contact div{
     width: fit-content;
     margin: auto;
@@ -93,6 +100,10 @@ a{
 #contact i{
     padding: 20px;
 }
+
+/* <------------------------------------------------------------------------------------------------> */
+
+/* for mobilephone */
 @media screen and (max-width:1000px) {
     .navbar{
         padding: 0 0 3rem;
