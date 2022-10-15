@@ -1,0 +1,118 @@
+body{
+    font-size: x-large;;
+    font-family: 'Montserrat', sans-serif;
+}
+/* fixing sub-heading */
+.sub-heading{
+    margin: auto;
+    width: fit-content;
+    font-size: 3rem;
+    font-weight: 600;
+}
+/* h1 heading  */
+h1{
+    font-size: 5rem;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* Welcome section */
+
+/* nav-bar */
+
+.navbar{
+    padding: 0 0 5.5rem;
+}
+.container-fluid{
+    padding: 3% 10% 5%;
+}
+.nav-item{
+    padding:20px;
+}
+.first{
+    margin-left:16rem;
+}
+.navbar-brand{
+    font-size:2rem;
+    font-weight: 900;
+}
+
+.contact-btn{
+    border-radius: 100px;
+}
+/* setting image  */
+.my-img{
+    width: 60%;
+    border-radius: 50%;
+    float: right;
+}
+.short-intro{
+    color: gray;
+}
+/* hire button */
+.hire-btn{
+    background-color: #0049ff;
+    color: white;
+    border-radius: 50px;
+    padding: 2% 6%;
+}
+
+/* skills section */
+.skills-img{
+    position: relative;
+    /* margin: auto; */
+    width: 35%;
+    padding: 5%;
+    margin: auto;
+    display: flex;
+}
+/* fixed position contact */
+.contact{
+    position: fixed;
+    padding: 15px;
+    top: 35%;
+    box-shadow: 1px 0px 3px 2px #888888;
+    border-radius: 0px 20px 20px 0px;
+}
+.socials{
+    align-items: center;
+    color: #ff6731;
+    padding: 2px;
+}
+/* permanent contact */
+#contact{
+    /* background-color: #eae0e0; */
+}
+#contact div{
+    width: fit-content;
+    margin: auto;
+}
+#contact i{
+    padding: 20px;
+}
+@media screen and (max-width:1000px) {
+    .navbar{
+        padding: 0 0 3rem;
+    }
+    .nav-item{
+        padding:0px;
+    }
+    .first{
+        margin-left:0rem;
+    }
+    .my-img{
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .skills-img{
+        
+        margin: auto;
+        width: 45%;
+    }
+    .contact{
+        visibility: hidden;
+    }
+}
