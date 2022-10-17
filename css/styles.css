@@ -2,9 +2,7 @@ body{
     font-size: x-large;;
     font-family: 'Montserrat', sans-serif;
 }
-
 /* <------------------------------------------------------------------------------------------------> */
-
 /* fixing sub-heading */
 .sub-heading{
     margin: auto;
@@ -17,13 +15,9 @@ body{
     font-size: 5rem;
     font-weight: 700;
 }
-
 /* <------------------------------------------------------------------------------------------------> */
-
 /* Welcome section */
-
 /* nav-bar */
-
 .navbar{
     padding: 0 0 5.5rem;
 }
@@ -40,7 +34,6 @@ body{
     font-size:2rem;
     font-weight: 900;
 }
-
 .contact-btn{
     border-radius: 100px;
 }
@@ -83,12 +76,8 @@ body{
     width: fit-content;
     border-radius: 5px;
 }
-
-
 /* <------------------------------------------------------------------------------------------------> */
-
 /* skills section */
-
 .skills-img{
     position: relative;
     /* margin: auto; */
@@ -112,9 +101,7 @@ body{
     color: #ff6731;
     padding: 2px;
 }
-
 /* <------------------------------------------------------------------------------------------------> */
-
 /* permanent contact */
 #contact .container-fluid{
     padding: 5rem 10%;
@@ -127,9 +114,7 @@ body{
     padding: 20px;
 }
 /* <-----------------------------------------------------------------------------------------------> */
-
 /* projects section */
-
 #projects{
    background-color: #d0ddfc;
 }
@@ -137,7 +122,6 @@ body{
     padding: 5%;
 }
 .cover-color{
-    /* background-color: #0049ff; */
     opacity: .9;
     position: absolute;
     width: 100%;
@@ -158,7 +142,6 @@ body{
     font-weight: 900;
 }
 /* <------------------------------------------------------------------------------------------------> */
-
 /* for mobilephone */
 @media screen and (max-width:1000px) {
     .navbar{
