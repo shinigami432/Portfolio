@@ -68,6 +68,22 @@ body{
     font-weight: 600;
     font-family: 'Pacifico', cursive;
 }
+/* <--------------------------------------------------------------------------------------> */
+/* Education section */
+#education{
+    line-height: 1.7;
+    background-color: #610017;
+    color: white;
+}
+.time{
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    padding: 2px 15px;
+    width: fit-content;
+    border-radius: 5px;
+}
+
 
 /* <------------------------------------------------------------------------------------------------> */
 
@@ -100,6 +116,9 @@ body{
 /* <------------------------------------------------------------------------------------------------> */
 
 /* permanent contact */
+#contact .container-fluid{
+    padding: 5rem 10%;
+}
 #contact div{
     width: fit-content;
     margin: auto;
@@ -134,6 +153,9 @@ body{
 .card:hover{
     border-radius: 0px 0px 62px 20px;
     transform: scale(1.1);
+}
+.portfolio-title{
+    font-weight: 900;
 }
 /* <------------------------------------------------------------------------------------------------> */
 

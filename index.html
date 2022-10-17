@@ -31,8 +31,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-
-    <!-- adding typescript content Delivery Network(CDN) -->
 </head>
 
 <body>
@@ -74,7 +72,7 @@
                     </ul>
                     <div class="button" style="margin-left: auto;">
                         <a href="#contact"><button class="btn btn-dark  btn-outline-dark contact-btn">Contact
-                                Us</button></a>
+                                </button></a>
                     </div>
                 </div>
             </nav>
@@ -82,7 +80,9 @@
                 <div class="col-md-6">
                     <h1 class = "hi"><span style = "    color: #610017;">Hi I'am</span> <br> Krishna Gupta</h1>
                     <h1 class = "changing-h1"> <span class="changing-heading">.</span> </h1><br> 
-                    <button class="btn btn btn-lg hire-btn">Hire Me</button>
+                    <a href="https://docs.google.com/document/d/1-J_2EjwD7M6cE4faRM3lRJ3jD__LZYaCXzhBmlIE3Yw/edit">
+                        <button class="btn btn btn-lg hire-btn">Resume</button>
+                    </a>
                 </div>
                 <div class="col-md-6">
                     <img src="./assets/image.png" alt="" class="my-img">
@@ -103,6 +103,26 @@
                     Supercontributers. I always want to come out of the box and learn by doing and building projects.
                     My hobbies are reading books playing guitar some of my favourite books are Deep Work, Bhagwat Geeta
                     and Ikigai.</p>
+            </div>
+        </div>
+    </section>
+    <section id="education">
+        <div class="container-fluid">
+            <h2 class="sub-heading">
+                Education
+            </h2> <br>
+            <div>
+                <h5 class="time">2020-Present</h3> <br> 
+                    <h3 style = "font-weight: 800;">Noida Institute Of Engineering And Technology</h3>
+                    <p style = "font-size: large;">Pursuing bachelors in Information Technology <br> Current cgpa 8.50</p> 
+            </div> 
+            <br>
+            <div>
+                <h5 class="time">2019-2020</h3>  <br>
+                    <h3 style = "font-weight: 800;">Dr. Kiran Saujiya Senior Secondary School Mainpuri</h3>
+                    <p style = "font-size: large;">
+                        Completed intermediate education 
+                    </p>
             </div>
         </div>
     </section>
@@ -134,8 +154,7 @@
                         alt="javascript" class="skills-img">
                 </div>
                 <div class="col-md-4">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
-                        alt="express" class="skills-img">
+                     <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git"  class = "skills-img"> 
                 </div>
             </div>
         </div>
@@ -147,36 +166,24 @@
                 Projects
             </h2> <br>
             <div class="row">
-                <div class="col-lg-4 projects-intro">
+                <div class="col-lg-6 projects-intro">
                     <div class="card">
                         <img class="card-img-top" src="./assets/portfolio.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href=""><button href="#" class="btn btn btn-lg hire-btn"> Go somewhere</button></a>
+                            <h5 class="card-title portfolio-title">Portfolio</h5>
+                            <p class="card-text">Developer a personal portfolio using HTML, CSS, Bootstrap, javascript.</p>
+                            <a href="https://krishnagupta1543.github.io/Portfolio/"><button href="#" class="btn btn btn-lg hire-btn">Check Out</button></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 projects-intro">
+                <div class="col-lg-6 projects-intro">
                     <div class="card">
                         <img class="card-img-top" src="./assets/tindog.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href=""><button href="#" class="btn btn btn-lg hire-btn">Go somewhere</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 projects-intro">
-                    <div class="card">
-                        <img class="card-img-top" src="./assets/dmdmoms.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href=""><button href="#" class="btn btn btn-lg hire-btn"> Go somewhere</button></a>
+                            <h5 class="card-title portfolio-title">Tindog</h5>
+                            <p class="card-text">Tindog is a practice project of the FullStack dev Bootcamp developed using html, css, bootstrap.
+                            </p>
+                            <a href=""><button href="#" class="btn btn btn-lg hire-btn">Check Out</button></a>
                         </div>
                     </div>
                 </div>
@@ -196,14 +203,10 @@
             </div>
         </div>
     </section>
+
+        <!-- adding typescript content Delivery Network(CDN) -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
-        // var typed = new Typed(".changing-heading",{
-        //     Strings: ["Developer","Reader","Learner"],
-        //     typeSpeed: 150,
-        //     backSpeed:150,
-        //     loop: true
-        // })
         var options = {
             strings: ['Krishna', 'Developer', 'Learner', 'Reader'],
             typeSpeed: 170,
