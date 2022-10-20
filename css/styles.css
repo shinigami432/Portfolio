@@ -65,8 +65,8 @@ body{
 /* Education section */
 #education{
     line-height: 1.7;
-    background-color: #610017;
-    color: white;
+    /* background-color: #610017; */
+    color: black;
 }
 .time{
     font-size: 1rem;
@@ -86,6 +86,7 @@ body{
     margin: auto;
     display: flex;
 }
+/* <------------------------------------------------------------------------------------------------------> */
 /* fixed position contact */
 .contact{
     background-color: white;
